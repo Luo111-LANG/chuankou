@@ -162,6 +162,7 @@ void Error_Handler(void)
   __disable_irq();
   while (1)
   {
+    //为了方便调试，可以在这里添加一些调试信息输出，比如通过串口打印错误信息
   }
   /* USER CODE END Error_Handler_Debug */
 }
